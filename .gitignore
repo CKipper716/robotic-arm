@@ -1,0 +1,17 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ROS build output
+build/
+install/
+log/
+
+# Local secrets and macOS metadata
+.env
+.env.*
+!.env.example
+.DS_Store
